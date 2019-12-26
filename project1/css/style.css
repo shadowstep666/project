@@ -1,0 +1,75 @@
+* {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .input {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .input-wrapper {
+    margin: 10px;
+  }
+  
+  .error-message {
+    color: #f5222d;
+  }
+  
+  .button {
+    border-radius: 5px;
+    background-color: #4482FF;
+    color: #ffffff;
+    padding: 10px 24px;
+  }
+  
+  .message-content {
+    max-width: 40%;
+    margin: 5px;
+    clear: both;
+  }
+  
+  .sender {
+    font-size: 11px;
+  }
+  
+  .content {
+    padding: 5px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  
+  .my-message {
+    float: right;
+    text-align: right;
+  }
+  
+  .my-message .content {
+    background-color: #4482FF;
+    color: #ffffff;
+  }
+  
+  .friend-message {
+    float: left;
+    text-align: left;
+  }
+  
+  .friend-message .content {
+    background-color: #e9e9e9;
+    color: #000000;
+  }
+  
+  .secondary-button {
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #9e9a9a;
+    border: 1px solid #e9e9e9;
+    padding: 10px 24px;
+  }

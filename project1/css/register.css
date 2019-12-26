@@ -1,0 +1,35 @@
+#register-screen {
+    height: 100vh;
+  }
+  
+  #register-screen #register-screen-content {
+    background-color: #ffffff;
+
+  }
+  
+  #register-screen #register-screen-content #logo {
+    margin: 40px;
+    
+  }
+  
+  #register-screen #register-screen-content #logo h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+  
+  #register-screen #register-screen-content #register-form {
+    margin: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #register-screen #register-screen-content #register-form #name-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #register-screen #register-screen-content #register-form #form-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }

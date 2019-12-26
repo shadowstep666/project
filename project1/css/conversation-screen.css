@@ -1,0 +1,35 @@
+#conversation-screen{
+}
+
+#conversation-match{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    height: 100%
+}
+
+
+#conversation-message {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 10px;
+    border: solib 1px black ;
+    overflow-y: scroll;
+}
+#input-message{
+
+}
+
+#message {
+    border: solid 2px black;
+    width: 90%;
+    height: 50px;
+
+}
+
+#submit {
+    background: blue;
+    width: 8%;
+    height: 50px;
+    color: white;
+}

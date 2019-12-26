@@ -1,0 +1,48 @@
+#web-screen #header #top {
+    height: 40px;
+    background: #1f1f1f;
+    border-bottom: 1px solid #ffffff;
+}
+
+#web-screen #header #logo-image {
+    margin: 40px;
+    text-align: center;
+}
+
+#web-screen #header #top #top-button-wrapper {
+    margin-right: 15%;
+    float: right;
+}
+
+.top-button {
+    background: #1f1f1f;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    margin: 0px 10px 0px;
+}
+
+.top-button:hover {
+    color: #acaaaa;
+    cursor: pointer;
+}
+
+#web-screen #header #menu-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 200px;
+    border-bottom: 1px solid #6d6d6d;
+    padding-bottom: 20px;
+}
+
+.menu-button {
+    background: #ffffff;
+    border: none;
+    padding: 0 10px;
+}
+
+.menu-button:hover {
+    color: #acaaaa;
+    cursor: pointer;
+}
+
